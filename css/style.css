@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -17,23 +21,25 @@
     width: 70%;
 }
 
+.mb-2{
+    margin-bottom: 2em;
+}
+
 /* HEADER */    
 .header{
     background-color: #e579e6;
     height: 100px;
-    margin-bottom: 25px;
 }
 
 /* MAIN */
 .jumbotron{
     background-color: #e1d67a;
     height: 400px;
-    margin-bottom: 25px;
 }
 
 .content{
     background-color: #008bf4;
-    margin-bottom: 10px;
+    margin-bottom: 1em;
 }
 
 .title{
@@ -49,14 +55,14 @@
     background-color: #abcfe7;
     width: 15%;
     margin: 20px 0;
-    height: 500px;
+    /* height: 500px; */
 }
 
 .middle-column{
     background-color: #abcfe7;
     width: calc(70% - 30px);
     margin: 20px 15px;
-    height: 500px;
+    /* height: 500px; */
 }
 
 /* FOOTER */
