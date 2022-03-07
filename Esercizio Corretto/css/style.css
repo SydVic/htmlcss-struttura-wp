@@ -8,3 +8,19 @@
 html{
     font-size: 62.5%;
 }
+
+/* COMMON */
+.container{
+    width: 70%;
+    max-width: 1400px;
+    margin: 0 auto;
+
+    border: 2px solid black;
+    height: 800px;
+}
+
+header{
+    height: 80px;
+    margin-bottom: 2em;
+    background-color: blueviolet;
+}
