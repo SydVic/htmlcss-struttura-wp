@@ -5,22 +5,90 @@
     box-sizing: border-box;
 }
 
+/* DEBUG */
+.container.debug{
+    border: 2px solid black;
+}
+
+.debug header{
+    background-color: #e579e6;
+}
+
+.debug .banner{
+    background-color: #e1d67a;
+}
+
+.debug .content{
+    background-color: #0086ff;
+}
+
+.debug .content-top{
+    background-color: #abcfe7;
+}
+
+.debug .col{
+    height: 200px;
+    background-color: #abcfe7;
+}
+
+.debug footer{
+    background-color: #8801fe;
+}
+
+/* COMMON */
 html{
     font-size: 62.5%;
 }
 
-/* COMMON */
 .container{
     width: 70%;
     max-width: 1400px;
     margin: 0 auto;
-
-    border: 2px solid black;
-    height: 800px;
 }
 
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.mb-2{
+    margin-bottom: 2em;
+}
+
+/* HEADER */
 header{
     height: 80px;
-    margin-bottom: 2em;
-    background-color: blueviolet;
+}
+
+/* MAIN */
+.banner{
+    height: 400px;
+}
+
+.content{
+    margin-bottom: 1em;
+}
+
+.content-top{
+    height: 60px;
+}
+
+.col{
+    float: left;
+}
+
+.col-side{
+    width: 25%;
+}
+
+.col-center{
+    width: 46%;
+    margin: 0 2%;
+}
+
+/* FOOTER */
+
+footer{
+    height: 50px;
 }
